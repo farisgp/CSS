@@ -1,0 +1,42 @@
+p{
+	background-color: skyblue;
+	color: green;
+	text-align: justify;
+	font-family: Bahnschrift;
+	font-size: 12pt;
+}
+body{
+	background-color: #cc9900;
+	background-image: url('welcome.png');
+	background-repeat: no-repeat;
+	background-position: top center;
+	background-attachment: fixed;
+	margin: 0cm 5cm; 
+}
+hr{
+	border-width: 3px;
+	border-color: maroon;
+	border-style: double;
+}
+fieldset, legend{
+	border: blue solid 10px;
+}
+legend{
+	padding:10px; /* all padding */
+	background-color:rosybrown;
+	color:black;
+	font-weight:bold;
+	font-size:14pt;
+	text-transform:uppercase;
+	font-family: calibri;
+	letter-spacing:5px;
+}
+
+ol { 
+	list-style-image: url("star.png"); 
+	font-family: Bahnschrift;
+} 
+ul { 
+	list-style-image: url("check.png"); 
+	font-family: Bahnschrift;
+} 
